@@ -146,16 +146,22 @@ input, textarea, select { font-family: var(--font-main); }
 }
 .site-header.scrolled { box-shadow: var(--shadow-md); }
 .navbar { display: flex; align-items: center; justify-content: space-between; padding: 14px 0; }
-.navbar-brand { display: flex; align-items: center; gap: 12px; }
+.navbar-brand { display: flex; align-items: center; gap: 12px; text-decoration: none; }
 .brand-logo {
   width: 48px; height: 48px; border-radius: 50%;
   object-fit: cover; border: 2px solid var(--red-pale);
+  flex-shrink: 0;
+}
+.brand-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .brand-text .brand-name {
-  font-size: 1.2rem; font-weight: 800; color: var(--red-main); line-height: 1.1;
+  font-size: 1.2rem; font-weight: 800; color: var(--red-main); line-height: 1.2;
 }
 .brand-text .brand-sub {
-  font-size: .7rem; color: var(--text-muted); letter-spacing: .5px;
+  font-size: .7rem; color: var(--text-muted); letter-spacing: .5px; line-height: 1.2;
 }
 .nav-menu { display: flex; align-items: center; gap: 4px; }
 .nav-link {
