@@ -12,7 +12,7 @@ const supabase = createClient(supabaseUrl, supabaseServiceKey, {
   auth: { persistSession: false }
 });
 
-const PROGRAM = process.env.PROGRAM || 'wheels-of-love';
+const PROGRAM = process.env.PROGRAM || 'smile-bright-bago';
 
 module.exports = supabase;
 module.exports.PROGRAM = PROGRAM;

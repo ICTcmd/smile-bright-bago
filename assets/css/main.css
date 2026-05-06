@@ -1,14 +1,14 @@
 /* ============================================================
-   Wheels of Love - Main Stylesheet
-   LGU Program Website | Bago City
+   Smile Bright Bago - Main Stylesheet
+   Dental Health Program | Bago City LGU
    ============================================================ */
 
 /* ---------- CSS Variables ---------- */
 :root {
-  --red-dark:    #b34700;
-  --red-main:    #e05c00;
-  --red-light:   #f47c2a;
-  --red-pale:    #fff3eb;
+  --red-dark:    #0077b6;
+  --red-main:    #00a8e8;
+  --red-light:   #48cae4;
+  --red-pale:    #e6f7ff;
   --white:       #ffffff;
   --off-white:   #fafafa;
   --gray-100:    #f5f5f5;

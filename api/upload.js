@@ -130,7 +130,7 @@ const handler = async (req, res) => {
       file_type: isVideo ? 'video' : 'image',
       album: album || null,
       uploaded_by: admin.id,
-      program: process.env.PROGRAM || 'wheels-of-love'
+      program: process.env.PROGRAM || 'smile-bright-bago'
     }).select().single();
 
     if (dbError) return res.status(500).json({ error: 'DB error: ' + dbError.message });

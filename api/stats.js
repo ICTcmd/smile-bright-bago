@@ -3,7 +3,7 @@ const { createClient } = require('@supabase/supabase-js');
 const supabase = require('./_lib/supabase');
 const { requireAuth, cors } = require('./_lib/auth');
 
-const PROGRAM = 'wheels-of-love';
+const PROGRAM = 'smile-bright-bago';
 
 module.exports = async (req, res) => {
   cors(res);
