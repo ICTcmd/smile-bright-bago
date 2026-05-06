@@ -1,11 +1,11 @@
 {
-  "name": "Heart Warriors — Bago City LGU",
-  "short_name": "Heart Warriors",
-  "description": "Official website of the Heart Warriors cardiovascular health program of Bago City LGU.",
+  "name": "Smile Bright Bago — Bago City LGU",
+  "short_name": "Smile Bright Bago",
+  "description": "Official website of the Smile Bright Bago dental health program of Bago City LGU.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#c0392b",
+  "theme_color": "#0077b6",
   "orientation": "portrait-primary",
   "icons": [
     { "src": "assets/images/logo.png", "sizes": "192x192", "type": "image/png" },

@@ -1,6 +1,6 @@
-# ❤️ Heart Warriors — LGU Bago City Website
+# 😁 Smile Bright Bago — LGU Bago City Website
 
-Official website for the Heart Warriors cardiovascular health program of the Local Government Unit of Bago City, Negros Occidental.
+Official website for the Smile Bright Bago dental health program of the Local Government Unit of Bago City, Negros Occidental.
 
 ---
 
@@ -9,9 +9,9 @@ Official website for the Heart Warriors cardiovascular health program of the Loc
 ### Step 1 — Create a Supabase Project
 
 1. Go to [supabase.com](https://supabase.com) and create a free account
-2. Create a new project (name it `heart-warriors`)
+2. Create a new project (name it `smile-bright-bago`)
 3. Go to **SQL Editor** and paste the contents of `database/schema.sql` — click **Run**
-4. Go to **Storage** → Create a new bucket named `heart-warriors-media` → set it to **Public**
+4. Go to **Storage** → Create a new bucket named `smile-bright-bago-media` → set it to **Public**
 5. Go to **Settings → API** and copy:
    - `Project URL` → this is your `SUPABASE_URL`
    - `anon public` key → this is your `SUPABASE_ANON_KEY`
@@ -36,7 +36,7 @@ VALUES (
 ### Step 3 — Deploy to Vercel
 
 1. Install Vercel CLI: `npm install -g vercel`
-2. In the `heart-warriors` folder, run: `vercel`
+2. In the `smile-bright-bago` folder, run: `vercel`
 3. Follow the prompts (link to your Vercel account, create new project)
 4. Add environment variables in Vercel Dashboard → Settings → Environment Variables:
 
@@ -60,7 +60,7 @@ JWT_SECRET            = any_long_random_string_here
 ## 📁 Project Structure
 
 ```
-heart-warriors/
+smile-bright-bago/
 ├── index.html              # Home page
 ├── about.html              # About page
 ├── news.html               # News & Updates
@@ -136,8 +136,8 @@ heart-warriors/
 
 ### Future-Ready (Database Ready)
 - 🔜 User registration & login
-- 🔜 Help request / ticketing system
-- 🔜 Beneficiary tracking
+- 🔜 Appointment booking system
+- 🔜 Patient records tracking
 - 🔜 Role-based access control
 
 ---
@@ -156,6 +156,6 @@ heart-warriors/
 
 For technical support, contact the program's IT coordinator or open an issue in the project repository.
 
-**Heart Warriors Program**
+**Smile Bright Bago Program**
 Bago City Hall, Bago City, Negros Occidental
-heartwarriors@bago.gov.ph
+smilebright@bago.gov.ph
